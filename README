@@ -61,4 +61,5 @@ Optimal Engine Count: Single-engine aircraft are safe in good conditions but ris
 1. **Fatal Accidents**: A significant proportion of accidents result in fatalities, with weather conditions like IMC (Instrument Meteorological Conditions) being a common factor.
 2. **Weather Impact**: Accidents are more likely to occur under VMC (Visual Meteorological Conditions), but fatalities are higher under IMC.
 3. **Aircraft Models**: Certain aircraft models, such as the Cessna 172 and Piper PA-28, are frequently involved in accidents, highlighting potential areas for safety improvements.
-
+# Tableau Link for visualisation of the analysis:
+https://public.tableau.com/app/profile/hanifa.chepchirchir/viz/AviationDataAnalysis_17431167089150/Dashboard1
