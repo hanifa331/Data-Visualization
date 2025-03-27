@@ -20,12 +20,11 @@ Insurers
 Airlines
 
 # Key Business Questions
- 1. Which aircraft models have historically demonstrated a lower likelihood of severe accidents or operational failures, and what design or maintenance factors contribute to their safety record?
- 
+ 1. Which Aircraft Models Demonstrate the Highest Safety Standards and Least Risk of Severe Accidents?
+
  2. Which geographic regions or airports pose higher risks for aircraft operations, and what environmental or infrastructural factors influence these risks?
 
-   
- 3. What is the optimal number of engines for an aircraft to ensure stable and safe flight operations, considering factors such as fuel efficiency, redundancy, and failure risk?
+ 3. What is the Ideal Number of Engines for Maximizing Aircraft Safety and Efficiency?
 
 ## Data Understanding and Analysis
 This dataset was obtained from kaggle it Contains 3,000+ records of aviation incidents from the years (1948–1982)
