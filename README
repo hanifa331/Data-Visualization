@@ -26,9 +26,17 @@ Airlines
 
  3. What is the Ideal Number of Engines for Maximizing Aircraft Safety and Efficiency?
 
-## Data Understanding and Analysis
-This dataset was obtained from kaggle it Contains 3,000+ records of aviation incidents from the years (1948–1982)
-Primarily U.S.-based, with some international cases ,Aircraft Information,Accident Details and Operational Context.
+## Data Understaning
+This dataset, sourced from Kaggle, contains over 3,000 aviation incident records from 1948 to 1982, mainly focused on U.S.-based incidents with some international cases. It includes the following key information:
+
+(i) Aircraft Information: Model, engine count, type, and manufacturer.
+
+(ii) Accident Details: Type, severity, fatalities, injuries, and location.
+
+(iii) Operational Context: Weather conditions, flight phase, route, and aircraft load.
+
+
+The dataset provides insights into accident trends, aircraft safety, weather and operational context impacts, and regional risk analysis, helping to identify patterns and correlations that can improve aviation safety.
 
 ### Source of Data
 The dataset, `AviationData.csv`, contains records of aviation accidents, including details such as event dates, locations, injury severity, aircraft models, and weather conditions.
