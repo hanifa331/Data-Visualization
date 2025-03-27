@@ -1,0 +1,65 @@
+Phase1 Project
+# Aviation Data Analysis
+
+## Overview
+This project analyzes aviation accident data to identify trends and patterns that can help improve aviation safety. The dataset includes records of aviation accidents, detailing factors such as injury severity, weather conditions, aircraft types, and more.
+
+## Business Understanding
+
+Our company is expanding into the aviation industry, seeking to purchase and operate aircraft for both commercial and private enterprises. To ensure this venture is both safe and financially sustainable, we need to assess the risks associated with different aircraft models, operational environments, and structural designs. Specifically, the objectives of this analysis are to answer these questions:
+ 
+ 1. Which aircraft models have historically demonstrated a lower likelihood of severe accidents or operational failures, and what design or maintenance factors contribute to their safety record?
+
+ 2. Which geographic regions or airports pose higher risks for aircraft operations, and what environmental or infrastructural factors influence these risks?
+
+ 3. What is the optimal number of engines for an aircraft to ensure stable and safe flight operations, considering factors such as fuel efficiency, redundancy, and failure risk?
+
+Stakeholders involved;
+Investors
+Insurers
+Airlines
+
+### Key Business Questions
+ 1. Which aircraft models have historically demonstrated a lower likelihood of severe accidents or operational failures, and what design or maintenance factors contribute to their safety record?
+ 
+ 2. Which geographic regions or airports pose higher risks for aircraft operations, and what environmental or infrastructural factors influence these risks?
+
+   
+ 3. What is the optimal number of engines for an aircraft to ensure stable and safe flight operations, considering factors such as fuel efficiency, redundancy, and failure risk?
+
+## Data Understanding and Analysis
+This dataset was obtained from kaggle it Contains 3,000+ records of aviation incidents from the years (1948–1982)
+Primarily U.S.-based, with some international cases ,Aircraft Information,Accident Details and Operational Context.
+
+### Source of Data
+The dataset, `AviationData.csv`, contains records of aviation accidents, including details such as event dates, locations, injury severity, aircraft models, and weather conditions.
+
+### Description of Data
+The dataset includes the following key columns:
+- `Event.Id`: Unique identifier for each event.
+- `Investigation.Type`: Type of investigation (e.g., Accident, Incident).
+- `Event.Date`: Date of the accident.
+- `Location`: Geographic location of the accident.
+- `Injury.Severity`: Severity of injuries (Fatal, Non-Fatal, Incident).
+- `Aircraft.damage`: Extent of damage to the aircraft.
+- `Make` and `Model`: Manufacturer and model of the aircraft.
+- `Weather.Condition`: Weather conditions at the time of the accident.
+
+### Visualizations
+1. **Accidents by Injury Severity**: A bar chart showing the distribution of accidents by injury severity (Fatal, Non-Fatal, Incident).
+2. **Accidents by Weather Condition**: A pie chart illustrating the proportion of accidents occurring under different weather conditions (VMC, IMC, UNK).
+3. **Top Aircraft Models Involved in Accidents**: A horizontal bar chart displaying the top 10 aircraft models most frequently involved in accidents.
+
+## Conclusion
+ From the objectives above i can conclude that:
+ 
+ Safer Aircraft Models: Single-engine planes (e.g., Cessna 172, Piper PA-28) are frequently involved in accidents but with lower fatality rates. Beechcraft models and helicopters also show relatively safer outcomes in certain conditions.
+
+High-Risk Locations: Mountainous regions (e.g., Alaska, Colorado) and urban areas (e.g., Los Angeles, New York) see more accidents due to weather, terrain, and traffic complexity. Rural areas also pose risks due to limited infrastructure.
+
+Optimal Engine Count: Single-engine aircraft are safe in good conditions but riskier in emergencies. Twin-engine planes offer redundancy but face more severe conditions. Turbojet/turboprop aircraft are highly reliable but have higher fatality rates in accidents.
+### Summary of Findings
+1. **Fatal Accidents**: A significant proportion of accidents result in fatalities, with weather conditions like IMC (Instrument Meteorological Conditions) being a common factor.
+2. **Weather Impact**: Accidents are more likely to occur under VMC (Visual Meteorological Conditions), but fatalities are higher under IMC.
+3. **Aircraft Models**: Certain aircraft models, such as the Cessna 172 and Piper PA-28, are frequently involved in accidents, highlighting potential areas for safety improvements.
+
