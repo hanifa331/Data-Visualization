@@ -19,7 +19,7 @@ Investors
 Insurers
 Airlines
 
-### Key Business Questions
+# Key Business Questions
  1. Which aircraft models have historically demonstrated a lower likelihood of severe accidents or operational failures, and what design or maintenance factors contribute to their safety record?
  
  2. Which geographic regions or airports pose higher risks for aircraft operations, and what environmental or infrastructural factors influence these risks?
@@ -46,9 +46,9 @@ The dataset includes the following key columns:
 - `Weather.Condition`: Weather conditions at the time of the accident.
 
 ### Visualizations
-1. **Accidents by Injury Severity**: A bar chart showing the distribution of accidents by injury severity (Fatal, Non-Fatal, Incident).
-2. **Accidents by Weather Condition**: A pie chart illustrating the proportion of accidents occurring under different weather conditions (VMC, IMC, UNK).
-3. **Top Aircraft Models Involved in Accidents**: A horizontal bar chart displaying the top 10 aircraft models most frequently involved in accidents.
+1. **A subplot of 'aircraft makes  and models with a lower likelihood of severe accidents'
+2. **A chart of "Locations that poses risks for aircraft operations"
+3. ** A 
 
 ## Conclusion
  From the objectives above i can conclude that:
