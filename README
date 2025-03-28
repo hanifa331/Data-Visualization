@@ -19,6 +19,16 @@ Investors
 Insurers
 Airlines
 
+Methods Used in the Project
+Data Preprocessing & Cleaning – Handled missing values, aggregated data, and transformed variables for analysis.
+
+Exploratory Data Analysis (EDA) – Used grouping, sorting, and filtering to identify key trends in accident data.
+
+Data Visualization – Created pie charts, bar charts, and color-mapped graphs using Matplotlib & Seaborn for insights.
+
+Business Intelligence – Identified safest aircraft models, high-risk locations, and optimal engine configurations.
+
+Decision-Making & Recommendations – Translated insights into actionable strategies for aviation safety and efficiency.
 # Key Business Questions
  1. Which Aircraft Models Demonstrate the Highest Safety Standards and Least Risk of Severe Accidents?
 
